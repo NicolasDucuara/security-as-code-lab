@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 443B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 1.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 216B done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c
+#5 resolve docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c 0.0s done
+#5 DONE 0.0s
+
+#6 [4/6] COPY requirements.txt .
+#6 CACHED
+
+#7 [5/6] RUN pip install --no-cache-dir --upgrade pip &&     pip install --no-cache-dir -r requirements.txt &&     pip uninstall -y pip setuptools wheel &&     rm -rf /usr/local/lib/python3.11/ensurepip
+#7 CACHED
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [3/6] RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
+#9 CACHED
+
+#10 [6/6] COPY src/ ./src/
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:523403f490736d9184df777d2fd4a47d2fce7c7b71597b3431ccce105a3b53ab 0.0s done
+#11 exporting config sha256:58d3213a479abc7ae9244a83a12a3088fa01aee341fd177f9ac2c4cf1c65fec0 0.0s done
+#11 exporting attestation manifest sha256:b163b0d8c299960a01ad3f121c9cd031c313726a31ab68ed60f16c5c22af6a83 0.0s done
+#11 exporting manifest list sha256:f8e837e65d6081c4fadd97d78223490a0edfd4e112a24fb6ff4178339272ee41
+#11 exporting manifest list sha256:f8e837e65d6081c4fadd97d78223490a0edfd4e112a24fb6ff4178339272ee41 0.0s done
+#11 naming to docker.io/library/security-as-code-lab:local done
+#11 unpacking to docker.io/library/security-as-code-lab:local done
+#11 DONE 0.1s
