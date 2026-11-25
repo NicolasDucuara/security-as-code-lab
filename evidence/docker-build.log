@@ -1,0 +1,103 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 220B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 5.7s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.00kB done
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c
+#6 resolve docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c 0.0s done
+#6 sha256:7cb68d39cd284bb0f746ee037b6c487e5cb431f600487f124bca7f6b433851ea 0B / 248B 0.2s
+#6 sha256:7cb68d39cd284bb0f746ee037b6c487e5cb431f600487f124bca7f6b433851ea 248B / 248B 0.2s done
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 0B / 29.84MB 0.3s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 0B / 14.47MB 0.2s
+#6 sha256:ac4f3e55c8492b4403bd1889a560387dc9a1fadff3bfc48a7b085e0738a5fcb4 0B / 1.29MB 0.2s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 2.10MB / 29.84MB 2.1s
+#6 sha256:ac4f3e55c8492b4403bd1889a560387dc9a1fadff3bfc48a7b085e0738a5fcb4 1.29MB / 1.29MB 2.7s done
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 1.05MB / 14.47MB 2.7s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 4.19MB / 29.84MB 3.0s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 2.10MB / 14.47MB 2.9s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 3.15MB / 14.47MB 3.0s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 4.19MB / 14.47MB 3.2s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 5.24MB / 14.47MB 3.3s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 7.34MB / 14.47MB 4.1s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 6.29MB / 29.84MB 4.4s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 8.39MB / 14.47MB 4.2s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 9.44MB / 14.47MB 4.4s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 10.49MB / 14.47MB 5.8s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 11.53MB / 14.47MB 6.3s
+#6 sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 14.47MB / 14.47MB 6.6s done
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 8.39MB / 29.84MB 7.0s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 10.49MB / 29.84MB 7.6s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 12.58MB / 29.84MB 8.1s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 14.68MB / 29.84MB 8.5s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 16.78MB / 29.84MB 9.1s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 18.87MB / 29.84MB 9.4s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 20.97MB / 29.84MB 9.7s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 23.07MB / 29.84MB 10.0s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 25.17MB / 29.84MB 10.3s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 27.26MB / 29.84MB 10.6s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 29.36MB / 29.84MB 10.8s
+#6 sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 29.84MB / 29.84MB 10.9s done
+#6 extracting sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861
+#6 extracting sha256:40748add9f4f6f944f334cbfc286590d6e93f60fb06f6ee7ffa1b894080ad861 0.6s done
+#6 DONE 11.5s
+
+#6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c
+#6 extracting sha256:ac4f3e55c8492b4403bd1889a560387dc9a1fadff3bfc48a7b085e0738a5fcb4 0.1s done
+#6 extracting sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808
+#6 extracting sha256:03bf319e97a9288588235831373f7e1eb9277b2b24375f84d97bd3c6192ba808 0.4s done
+#6 DONE 12.0s
+
+#6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:61e01f72680f86a5279ad510818ab7b2ee9f049822589d4e34e33e044360356c
+#6 extracting sha256:7cb68d39cd284bb0f746ee037b6c487e5cb431f600487f124bca7f6b433851ea done
+#6 DONE 12.0s
+
+#7 [2/5] WORKDIR /app
+#7 DONE 0.2s
+
+#8 [3/5] COPY requirements.txt .
+#8 DONE 0.0s
+
+#9 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#9 1.704 Collecting urllib3==1.25.3 (from -r requirements.txt (line 2))
+#9 1.972   Downloading urllib3-1.25.3-py2.py3-none-any.whl.metadata (38 kB)
+#9 2.069 Downloading urllib3-1.25.3-py2.py3-none-any.whl (150 kB)
+#9 2.104    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 150.9/150.9 kB 4.9 MB/s eta 0:00:00
+#9 2.130 Installing collected packages: urllib3
+#9 2.189 Successfully installed urllib3-1.25.3
+#9 2.190 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#9 2.417 
+#9 2.417 [notice] A new release of pip is available: 24.0 -> 26.3
+#9 2.417 [notice] To update, run: pip install --upgrade pip
+#9 DONE 2.5s
+
+#10 [5/5] COPY src/ ./src/
+#10 DONE 0.0s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.4s done
+#11 exporting manifest sha256:57cd08774b17605aa13f1bd035b727a8684e6e387492cbdd17471688f5e0af83 done
+#11 exporting config sha256:7cc5851a0e4e88c8948cef44376b033817b7eade923acff227b43d6625b3ca98 done
+#11 exporting attestation manifest sha256:ab25ddb1e394128fd2eb3f9c6378ecdb60d8860991baf672d0d5d2e1446c044e 0.0s done
+#11 exporting manifest list sha256:e152e6c91fecbc60f5158097c6cd6a20646b1c0c34402a7aac6ee75b7ba06a43 done
+#11 naming to docker.io/library/security-as-code-lab:local done
+#11 unpacking to docker.io/library/security-as-code-lab:local 0.1s done
+#11 DONE 0.6s
